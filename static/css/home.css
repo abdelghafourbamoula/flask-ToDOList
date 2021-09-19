@@ -10,6 +10,7 @@
     padding: .25rem 1rem;
     border-radius: 15px;
     height: 35rem;
+    width: auto;
 }
 
 .head {
@@ -58,36 +59,8 @@ form .btn:hover {
     }
 }
 
-
-@keyframes headerAnimate {
-    0% {
-        content: "My";
-    }
-
-    25% {
-        content: "To";
-    }
-
-    50% {
-        content: "-";
-    }
-
-    75% {
-        content: "Do";
-    }
-    100% {
-        content: "List";
-    }
-}
-.container .row h3 {
-    animation: headerAnimate infinite !important;
-    content: "kheddam";
-}
-
-
-
 .card {
-    height: 43vh;
+    min-height: 60vh ;
 }
 
 .card-image img {
@@ -103,9 +76,19 @@ form .btn:hover {
     text-align: center;
     border-radius: 30px !important;
     margin: .5em;
+    padding: .5em;
 }
 
 footer {
     padding: 2.5vw;
     line-height: 2.5em;
+}
+
+@media screen and (max-width: 600px) {
+    .card{
+        display: block !important;
+    }
+    .card-image, .card-image img {
+        max-width: 100% !important;
+    }
 }

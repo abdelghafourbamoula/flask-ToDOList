@@ -15,8 +15,90 @@
 
 </head>
 
-<body>
+<body class="amber lighten-2">
+    <div class="container">
 
+        <div class="row header">
+            <div class="col l12 m12 s12">
+                <h4>Welcome inknown !</h4>
+            </div>
+            <div class="col l6 s12 m8 white card-panel">
+                <p>incomplete tasks <span class="new badge deep-orange">7</span></p>
+            </div>
+        </div>
+
+        <div class="row white card-panel">
+            <form method="get">
+                <div class="col l2 m2 s2 center">
+                    <i class="task material-icons teal-text">add_task</i>
+                </div>
+                <div class="col l8 m8 s8">
+                    <input class="col l8 m10 s9" type="text" name="task" id="task" placeholder="To Do">
+                    <input class="col l4 m2 s3" type="date" name="date" id="date">
+                </div>
+                <div class="add col l2 s2 m2">
+                    <button class="btn-floating waves-effect waves-light" type="submit">
+                        <i class="material-icons">add</i>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="row">
+            <div class="controls col l3 m4 s8">
+            <a href="" class="white waves-effect">
+                <i class="material-icons">print</i>
+            </a>
+            <a href="" class="white waves-effect">
+                <i class="material-icons">download</i>
+            </a>
+            <a href="" class="white waves-effect">
+                <i class="material-icons">clear_all</i>
+            </a>
+            </div>
+        </div>
+        <div class="row card-panel">
+            <form action="#" method="post">
+                <p>
+                    <label>
+                        <input type="checkbox" />
+                        <span>Red</span>
+                        <span>28-09-2021</span>
+                    </label>
+                    <i class="material-icons">delete</i>
+                    <hr>
+                </p>
+                <!------------------>
+                <p>
+                    <label>
+                        <input type="checkbox" />
+                        <span>Red</span>
+                        <span>28-09-2021</span>
+                    </label>
+                    <i class="material-icons">delete</i>
+                    <hr>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" />
+                        <span>Red</span>
+                        <span>28-09-2021</span>
+                    </label>
+                    <i class="material-icons">delete</i>
+                    <hr>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" />
+                        <span>Red</span>
+                        <span>28-09-2021</span>
+                    </label>
+                    <i class="material-icons">delete</i>
+                    <hr>
+                </p>
+            </form>
+        </div>
+    </div>
 
     <script src="/static/js/todo.js"></script>
 </body>
