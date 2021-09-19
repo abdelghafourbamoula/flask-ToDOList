@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="/static/css/home.css">
+    <link rel="stylesheet" href="../static/css/home.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
@@ -17,6 +17,10 @@
 
 <body class="deep-orange lighten-1">
     <div class="container">
+        <div class="row">
+            <h3 class="center white-text h3"> My To-Do List</h3>
+        </div>
+
         <div class="row">
 
             <div class="col l6">
@@ -45,9 +49,9 @@
 
                         <label for="email">Email :</label>
                         <input type="email" name="email" id="email">
-
-                        <label for="name">Your name :</label>
-                        <input type="text" name="name" id="name">
+ 
+                        <!--<label for="name">Your name :</label>
+                        <input type="text" name="name" id="name"> -->
 
                         <input class="btn deep-orange" type="submit" value="Register">
                     </form>
@@ -55,6 +59,75 @@
             </div>
 
         </div>
+        <hr>
+        <div class="row">
+
+            <div class="col s12 m6 l6">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img class="activator" src="../static/images/todo.jpg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>Create clear, multi-functional to-do lists to easily manage your ideas and
+                                work from anywhere so you never forget anything again.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Lets Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l6">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img class="activator" src="../static/images/to-do-list.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>
+                                <ol>
+                                    <li>Set goals correctly </li>
+                                    <li>Prioritize wisely</li>
+                                    <li> Set a time limit</li>
+                                    <li>Take a break between tasks</li>
+                                </ol> 
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Lets Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l12">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img class="activator" src="../static/images/todo-2.jpg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>By keeping such a list, you make sure that your tasks are written 
+                                down all in one place so you don't forget anything important. And by 
+                                 prioritizing tasks, you plan the order in which you'll do them, 
+                                 so that you can tell what needs your immediate attention, and what 
+                                 you can leave until later.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Lets Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <footer class="footer row center white">
+            <div class="col l6">To-Do List Web Application <hr> 2021 </div>
+            <div class="col l6"> By <hr>Abdelghafour Bamoula <br>Akram Elbasri </div>
+        </footer>
     </div>
 </body>
 
