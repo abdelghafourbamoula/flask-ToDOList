@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&display=swap');
+
+.header h4 {
+    font-family: 'Gluten', cursive;
+}
+
+form .add button{
+    margin-left: 2rem;
+}
+
+form .add button:hover {
+    transform: rotate(180deg) ;
+    transition: .35s;
+}
+
+form #task{
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+form p{
+    display: flex;
+    justify-content: space-between;
+}
+
+form p label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+    padding: 0 5vw;
+}
+
+form p i {
+    cursor: pointer;
+    color: #f44336;
+}
+
+form p i:hover{
+  color: #ff1010;
+  font-weight: bold;
+  transition: .25s;
+}
+
+/* form p:nth-child(even){
+    background-color: #f1f1f1;
+    padding: 1rem 0;
+} */
+
+hr{
+    border-top: .5px dashed #009688;
+}
+
+.controls{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls a{
+    padding: .25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+.controls a:hover:nth-child(n){
+    color: white;
+    background-color: #009688;
+}
+
+.controls a i{
+    font-size: 150%;
+    padding-top: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    form .add {
+        padding: 1rem 0  !important;
+        width: 100% ;
+    }
+}
